@@ -2,7 +2,7 @@
     "name": "joaofaveri/base-framework",
     "type": "library",
     "description": "Base para o desenvolvimento de aplicações",
-    "keywords": ["framework"],
+    "keywords": ["framework", "desenvolvimento", "base"],
     "license": "MIT",
     "authors": [
         {
