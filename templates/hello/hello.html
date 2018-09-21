@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block title %}Hello{% endblock %}
+{% block head %}
+{{ parent() }}
+<style type="text/css">
+.important { color: #336699; }
+</style>
+{% endblock %}
+{% block content %}
+{{ parent() }} {# Mantém o conteúdo do bloco "content" de layout.html #}
+<h1>Página Hello</h1>
+<p class="important">
+Aqui vamos apresentar a variável, com CSS personalizado! Hello, {{ name }}!
+</p>
+{% endblock %}
