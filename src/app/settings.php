@@ -13,7 +13,7 @@ return [
         
         // Configurações do Twig-View
         'twig-view' => [
-            'templates' => BASEPATH . '/resources/views',
+            'templates' => BASEPATH . '/templates',
             // 'cache' => BASEPATH . '/tmp/cache/views',
             'cache' => false,
         ],
