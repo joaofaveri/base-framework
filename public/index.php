@@ -1,4 +1,6 @@
 <?php
+ini_set("display_errors","1"); // Apenas em Desenvolvimento
+ERROR_REPORTING(E_ALL); // Apenas em Desenvolvimento
 // Cria constante para o Diretorio Base do Aplicativo
 // Sempre direciono a raiz do servidor para a pasta public
 // Para evitar problema nas configurações, usar a variável
