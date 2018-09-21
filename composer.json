@@ -1,0 +1,24 @@
+{
+    "name": "joao.faveri/base-framework",
+    "description": "Base para o desenvolvimento de aplicações em PHP",
+    "type": "library",
+    "require": {
+        "monolog/monolog": "^1.23",
+        "slim/slim": "^3.11",
+        "slim/twig-view": "^2.4",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joao.faveri",
+            "email": "joao.faveri@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/core/"
+        }
+    }
+}
